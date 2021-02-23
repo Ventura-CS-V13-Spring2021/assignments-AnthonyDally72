@@ -14,13 +14,19 @@ int main()
   {
       cout << "All numbers are distinct";
   }
-  else if(num1 == num2 || num2 == num3)
+  else
   {
-      cout << "There are two duplicated numbers"; 
-  }
-  else  
-  {
-     cout << "All numbers are the Same";
+      if(num1 == num2 && num2 == num3 && num3 == num1)
+      {
+          cout << "All numbers are the Same";
+
+
+      }
+      else
+      {
+          cout << "At least two of the numbers are the Same";
+
+      }
   }
   return 0;
 

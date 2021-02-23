@@ -29,15 +29,15 @@ int main()
   }
     return 0;
 
-  //if (selection == 'A' || selection == 'a')
-    //  cout << "Your choice is A\n";
-  //else if (selection == 'B' || selection == 'b')
-     // cout << "Your choice is B\n";
-  //else if (selection == 'C' || selection == 'c')
-     // cout << "Your choice is C\n";
-  //else
-      //cout << "Choice is incorrect\n";
-
+  /*if (selection == 'A' || selection == 'a')
+      cout << "Your choice is A\n";
+  else if (selection == 'B' || selection == 'b')
+      cout << "Your choice is B\n";
+  else if (selection == 'C' || selection == 'c')
+      cout << "Your choice is C\n";
+  else
+      cout << "Choice is incorrect\n";
+  */
 
 
 
