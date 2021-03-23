@@ -14,26 +14,24 @@ using namespace std;
   print out the number if it is prime*/
 int main()
 {
-  int pick_one, pick_two ,i;
+  int rangeOne, rangeTwo;
+  int i,j;
+  cout << "Enter the range of numbers to be checked for prime numbers" << endl;
+  cin >> rangeOne >> rangeTwo;
 
-  cout << "enter two positive numbers : ";
-  cin >> pick_one >> pick_two ;
-  
-  if(pick_one <= 0)
+  for(i = 2;i < rangeTwo; i++)
   {
-    cout << "Try again";
+     if(rangeOne % i == 0)
+     {
+        cout << rangeOne ;
+        
+     }
+    
 
   }
-  for(pick_one = i;i <= pick_two; i++)
-  {
-    if(pick_one / 2)
-    {
-      
 
-    }
-    cout << "This number is prime : ";
 
-  }
+
   return 0;
 
 
